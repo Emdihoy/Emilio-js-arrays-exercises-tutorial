@@ -4,7 +4,7 @@ let initialValue = 0;
 let stopValue = 0;
 let increasingValue = 0;
 
-for(let i = 7; i < mySampleArray.length; i = i + 1)
+for(let i = initialValue; i < stopValue; i = i + increasingValue)
 {
 	console.log(mySampleArray[i]);
 }
