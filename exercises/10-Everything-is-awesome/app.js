@@ -9,7 +9,7 @@ const ZerosToYahoos = (arr) => {
             }
                 else {
                     return_array.push('Yahoo')
-                }           
+                }
     });
     return return_array;
 };
