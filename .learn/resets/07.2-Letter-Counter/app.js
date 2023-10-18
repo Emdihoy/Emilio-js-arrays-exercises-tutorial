@@ -3,13 +3,13 @@ let counts = {};
 
 // Your code here
 for (let i in par)
-{ const character = par[i].toLowerCase()
-    if (character === " ") continue;
-    else if (counts[character] == undefined){
-        counts[character] = 1;
+{ const letter = par[i].toLowerCase()
+    if (letter === " ") continue;
+    else if (counts[letter] == undefined){
+        counts[letter] = 1;
     }    
     else {
-        counts[character] = counts[character] + 1;
+        counts[letter] = counts[letter] + 1;
     }
 }
 console.log(counts);
